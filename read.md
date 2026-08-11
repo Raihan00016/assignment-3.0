@@ -89,3 +89,4 @@ function generateLeaderboard(students) {
     return names.slice(0, 3);
 }
 
+

@@ -1,6 +1,8 @@
 function studentIntroduction(student) {
     if (typeof student !== 'object' ||
-        !("name" in student) || !("age" in student) || !("course" in student)
+        !("name" in student) ||
+        !("age" in student) ||
+        !("course" in student)
     ) {
         return "Invalid"
     }
